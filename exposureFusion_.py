@@ -228,8 +228,6 @@ def measures_fusion_multires(image_stack, weight_maps, levels=6):
         weightedPyramids.append(blended_multires)
 
     # combine weighted pyramids among images
-    import ipdb; ipdb.set_trace()  # XXX DEBUG
-
     weightedsumPyramid = []
     for i in range(levels):
         # initialize with 0
